@@ -73,7 +73,22 @@ description: >
             font-size: 0.9em;
             padding: 8px 8px;
         }
-    
+
+        .highlights {
+            margin: 12px 0;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 800px) {
+            body {
+                flex-direction: column;
+            }
+            .sidebar-content {
+                width: auto;
+                height: auto;
+            }
+        }
+
     </style>
     
     <div class="sidebar-content">
@@ -84,33 +99,27 @@ description: >
         <img src="/images/Circle Sam.png?raw=true" alt="Sam Celarek">
     
         <div id="job-box">
-        <a href="/dsport.html">Data Scientist</a>
-        |
-        <a href="/daport.html">Data Analyst</a>
+        <a href="/pages/babysteps.html">Healthcare Data Analyst</a>
         </div>
-    
-        <div>
-            Avid Data Explorer<br>
-            ML Enthusiast<br>
-            Coding Everyday<br>
-            Medical Background<br>
-            Energetic Teammate<br>
-            Impact Driven<br>
+
+        <div class="highlights">
+            Former Neuro ICU Nurse<br>
+            Portland, Oregon<br>
+            <br>
+            Over 3 million IVF cycles, modeled<br>
+            Production SQL, Python and pipelines<br>
+            Hospital quality council chair<br>
         </div>
-    
+
         <div>
             <a class="big-box" href="https://www.linkedin.com/in/sam-celarek/">LinkedIn</a>
-            <a class="big-box" href="https://github.com/scelarek">GitHub</a><br>            
+            <a class="big-box" href="https://github.com/scelarek">GitHub</a><br>
+            <a class="big-box" href="https://www.makebabysteps.com/">Baby Steps</a>
             <a class="big-box" href="https://calendly.com/scelarek/data-science-discussion">Book Me</a><br>
-            <a class="small-box smaller-btn" href="https://docs.google.com/document/d/1nHMM3My-o0v3f5ZGs--drPxMx-DhzapC1QNLqUviT2k/edit?usp=sharing">My Resume</a>
+            <a class="small-box smaller-btn" href="https://docs.google.com/document/d/1JD_puszRxz59xxX8yeCdf4Pb4fvO_gDkY_s6Wakpm3Y/edit?usp=sharing">My Resume</a>
             <a class="small-box smaller-btn" href="mailto:scelarek@gmail.com">Email Me!</a>
         </div>
     </div>
-
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme
-google_analytics: G-Y2C3F7G3VW
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:

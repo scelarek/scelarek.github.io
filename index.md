@@ -80,17 +80,24 @@
 <body>
     <section>
         <div class="project-content">
-            <h2><a href="/pages/covid.html" class="view-project">Featured Project: CovidCast</a></h2>
-            <p class="project-description">Like a weather forecast for pandemics, COVIDCast leverages state-of-the-art machine learning and epidemiological models to deliver precise outbreak predictions.</p>
-            <img src="https://github.com/scelarek/scelarek.github.io/assets/115444760/00381f16-48b4-4b64-bcb8-3df639dca68d" alt="COVIDCast Image" style="max-width: 100%; border-radius: 10px; margin-top: 20px;">
+            <h2><a href="/pages/babysteps.html" class="view-project">Featured: Baby Steps IVF</a></h2>
+            <p class="project-description">Cofounder &amp; Data Analyst, 2023&ndash;2026. Compares 400+ US fertility clinics on outcomes adjusted for the patients each clinic treats, using over 3 million IVF cycles and 28 years of CDC reports.</p>
+            <p class="project-description">Bayesian Hierarchical Models &bull; Risk Adjustment &bull; Record Linkage &bull; Price Transparency Data &bull; Python &bull; SQL &bull; PostgreSQL &bull; Data Pipelines</p>
+            <p class="project-description"><a href="https://www.makebabysteps.com/">makebabysteps.com</a></p>
         </div>
         <div class="project-content">
-            <h2><a href="/dsport.html" class="view-project">Data Science Portfolio</a></h2>
-            <p class="project-description">Time Series Forecasting &bull; Hyperparameter Tuning &bull; Feature Engineering &bull; Web Scraping &bull; Regression &bull; Classification &bull; Clustering &bull; Deep Learning &bull; NLP &bull; Pipelines &bull; Grid Search &bull; Retrieval Augmented AI Text Generation &bull; LLMs </p>
+            <h2><a href="/pages/nerevu.html" class="view-project">Nerevu Group: Data Analyst</a></h2>
+            <p class="project-description">2023&ndash;2026. Production SQL Server, SSIS and Python pipelines, model evaluation and client reporting.</p>
+            <p class="project-description">SQL Server &bull; SSIS &bull; Stored Procedures &bull; Python &bull; PostgreSQL &bull; CI &amp; Testing &bull; Funnel Analysis &bull; Data Visualization</p>
         </div>
         <div class="project-content">
-            <h2><a href="/daport.html" class="view-project">Data Analysis Portfolio</a></h2>
-            <p class="project-description">Databases &bull; SQL &bull; Data Wrangling &bull; Data Cleaning &bull; Cloud Computation &bull; EDA &bull; Descriptive Statistics &bull; Time Series Analysis &bull; Tableau &bull; Dashboards &bull; Business Reports &bull; Data Visualization </p>
+            <h2><a href="/pages/quality.html" class="view-project">Clinical Quality Improvement</a></h2>
+            <p class="project-description">Eight years as a nurse, including four on a hospital quality and safety council, two as chair. Central line infections fell 41%.</p>
+            <p class="project-description">Quality Metrics &bull; Chart Audits &bull; Epic &bull; Process Improvement &bull; Leadership</p>
+        </div>
+        <div class="project-content">
+            <h2><a href="/pages/bootcamp.html" class="view-project">Earlier Projects (2023)</a></h2>
+            <p class="project-description">BrainStation data science projects: CovidCast forecasting, NLP, classification, dashboards and more.</p>
         </div>
         <div class="project-content">
             <h2><a href="https://portlandear.wordpress.com/" class="view-project">Effective Altruism Portfolio</a></h2>
