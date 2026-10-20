@@ -4,7 +4,7 @@
     <p>Eight years as a nurse, including five in neuro ICUs and four on a hospital Quality Improvement &amp; Safety Council, two as chair. Then three years in data: I design databases, models and pipelines for healthcare questions, and I test them before anyone acts on them.</p>
 </div>
 
-<h2 class="section-title">Work Experience · Data</h2>
+<h2 class="section-title">Work Experience</h2>
 <div class="cards">
 
     <article class="card featured">
@@ -33,10 +33,6 @@
         <a class="more" href="/pages/nerevu.html">See the work →</a>
     </article>
 
-</div>
-
-<h2 class="section-title">Work Experience · Nursing</h2>
-<div class="cards">
 
     <article class="card">
         <p class="eyebrow">Critical Care Nurse · Oct 2019 – Aug 2022 · Portland, OR</p>
@@ -56,6 +52,17 @@
 
 </div>
 
+<h2 class="section-title">Community</h2>
+<div class="cards">
+    <article class="card featured">
+        <p class="eyebrow">Organizer · 6 years · Portland, OR</p>
+        <h2><a href="/pages/community.html">Portland Effective Altruists &amp; Rationalists (PEAR)</a></h2>
+        <p>Led Portland's effective altruism and rationality community for six years: won grants to grow it, then moved it to self-funding. 1,000+ members, weekly dinners, book clubs and AI safety meetups.</p>
+        <ul class="tags"><li>Community building</li><li>Grant writing</li><li>Event organizing</li><li>AI safety</li></ul>
+        <a class="more" href="/pages/community.html">See the community →</a>
+    </article>
+</div>
+
 <h2 class="section-title">Education</h2>
 <div class="cards">
 
@@ -63,11 +70,7 @@
         <p class="eyebrow">May – Aug 2023</p>
         <h2><a href="/pages/education.html">Diploma in Data Science · BrainStation</a></h2>
         <p>Top of cohort (98%).</p>
-        <ul class="links">
-            <li><a href="/dsport.html">Data Science Projects</a><span>Time series, NLP, classification, clustering, deep learning</span></li>
-            <li><a href="/daport.html">Data Analysis Projects</a><span>SQL, EDA, Tableau dashboards, business reports</span></li>
-            <li><a href="/pages/covid.html">Capstone: CovidCast</a><span>Forecasting COVID cases 14 days out</span></li>
-        </ul>
+        <ul class="tags"><li>Python</li><li>SQL</li><li>Machine learning</li><li>Tableau</li></ul>
     </article>
 
     <article class="card">
@@ -79,13 +82,31 @@
 
 </div>
 
-<h2 class="section-title">Community</h2>
+<h2 class="section-title">Projects</h2>
 <div class="cards">
+
     <article class="card">
-        <h2><a href="https://portlandear.wordpress.com/">Effective Altruism Portfolio</a></h2>
-        <p>Community building, leadership, agenda setting, presentations, outreach and research.</p>
-        <a class="more" href="https://portlandear.wordpress.com/">Visit →</a>
+        <p class="eyebrow">BrainStation · 2023</p>
+        <h2><a href="/dsport.html">Data Science Projects</a></h2>
+        <ul class="tags"><li>Time series</li><li>NLP</li><li>Classification</li><li>Clustering</li><li>Deep learning</li></ul>
+        <a class="more" href="/dsport.html">Browse →</a>
     </article>
+
+    <article class="card">
+        <p class="eyebrow">BrainStation · 2023</p>
+        <h2><a href="/daport.html">Data Analysis Projects</a></h2>
+        <ul class="tags"><li>SQL</li><li>EDA</li><li>Tableau dashboards</li><li>Business reports</li></ul>
+        <a class="more" href="/daport.html">Browse →</a>
+    </article>
+
+    <article class="card featured">
+        <p class="eyebrow">Capstone · BrainStation · 2023</p>
+        <h2><a href="/pages/covid.html">CovidCast: Predict to Protect</a></h2>
+        <p>Time series and epidemiological models forecasting COVID cases 14 days out.</p>
+        <ul class="tags"><li>SARIMAX</li><li>Prophet</li><li>SIRD model</li><li>Feature selection</li></ul>
+        <a class="more" href="/pages/covid.html">See the capstone →</a>
+    </article>
+
 </div>
 
 <blockquote class="quote">“You can't actually feel the weight of the world. The human mind is not capable of that feat. But sometimes, you can catch a glimpse.”<cite>— Nate Soares, On Caring</cite></blockquote>

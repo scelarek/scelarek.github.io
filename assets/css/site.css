@@ -153,6 +153,7 @@ section hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
   background: #f0f5f4;
   color: var(--brand);
   border: 1px solid var(--line);
+  text-align: center;
   transition: transform .15s ease, background .15s ease;
 }
 .btn:hover { background: var(--mint); text-decoration: none; transform: translateY(-1px); }
