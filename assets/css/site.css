@@ -318,3 +318,19 @@ figure.viz figcaption { font-size: 13px; color: var(--ink-3); margin-top: 8px; }
 
 .wrapper section section { width: auto; float: none; }
 .profile a, .profile a:hover { text-decoration: none; }
+
+.section-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--ink-3);
+  margin: 32px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+.card ul.links { list-style: none; margin: 4px 0 0; padding: 0; }
+.card ul.links li { padding: 8px 0; border-top: 1px solid var(--line); }
+.card ul.links li:first-child { border-top: 0; }
+.card ul.links a { font-weight: 700; }
+.card ul.links span { display: block; font-size: 13.5px; color: var(--ink-3); }
+.block .cards { margin-top: 12px; }

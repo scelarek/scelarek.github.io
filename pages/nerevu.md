@@ -1,7 +1,7 @@
 <div class="page-hero">
-    <p class="eyebrow">Data Analyst · Oct 2023 – Oct 2026 · Portland, OR</p>
+    <p class="eyebrow">Data Analyst · Oct 2023 – Oct 2026</p>
     <h1>Nerevu Group</h1>
-    <p class="sub">Production data work for a small Portland firm</p>
+    <p class="sub">Nerevu Group LLC · Peoria, Illinois · worked remotely from Portland, OR</p>
     <p class="lede">Pipelines that run every night, tests that keep them honest, and reports clients act on.</p>
     <div class="stats">
         <div class="stat"><b>30 → 1</b><span>minutes of lead prep</span></div>

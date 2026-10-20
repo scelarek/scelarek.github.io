@@ -1,6 +1,6 @@
 <div class="page-hero">
     <p class="eyebrow">Sam Celarek, BSN · 2014 – 2022</p>
-    <h1>Clinical Quality Improvement</h1>
+    <h1>Nursing &amp; Clinical Quality</h1>
     <p class="sub">SSM Saint Louis University Hospital · Providence St. Vincent Medical Center</p>
     <p class="lede">Eight years as a nurse, before data was my job title: tracking safety metrics, auditing charts and running the changes that moved them.</p>
     <div class="stats">
