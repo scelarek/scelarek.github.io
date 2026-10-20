@@ -205,6 +205,7 @@ section hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
 .stat span { display: block; font-size: 13px; color: var(--ink-3); margin-top: 4px; }
 
 .quote {
+  margin-bottom: 20px !important;
   border: 0;
   margin: 28px 0 0;
   padding: 20px 24px;

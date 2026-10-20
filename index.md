@@ -56,9 +56,9 @@
 <div class="cards">
     <article class="card featured">
         <p class="eyebrow">Organizer · 6 years · Portland, OR</p>
-        <h2><a href="/pages/community.html">Portland Effective Altruists &amp; Rationalists (PEAR)</a></h2>
-        <p>Led Portland's effective altruism and rationality community for six years: won grants to grow it, then moved it to self-funding. 1,000+ members, weekly dinners, book clubs and AI safety meetups.</p>
-        <ul class="tags"><li>Community building</li><li>Grant writing</li><li>Event organizing</li><li>AI safety</li></ul>
+        <h2><a href="/pages/community.html">Portland Effective Altruism &amp; Rationality (PEAR)</a></h2>
+        <p>Led Portland's effective altruism and rationality community for six years: won an EA Funds grant to grow it, then moved it to community funding. 1,166 members, 547 events, a 4.6-star rating, weekly dinners and a book club.</p>
+        <ul class="tags"><li>Community building</li><li>Grant writing</li><li>Fundraising</li><li>Event organizing</li><li>AI safety</li></ul>
         <a class="more" href="/pages/community.html">See the community →</a>
     </article>
 </div>

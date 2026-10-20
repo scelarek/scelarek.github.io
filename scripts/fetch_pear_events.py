@@ -55,6 +55,18 @@ def parse_events(text):
     return events
 
 
+def find_location(event):
+    """Use LOCATION, or else the "Where:" line PEAR puts in each event description."""
+    location = unescape(event.get("LOCATION", ("", ""))[1])
+    if location:
+        return location
+    description = event.get("DESCRIPTION", ("", ""))[1].replace("\\n", "\n")
+    for line in description.split("\n"):
+        if line.strip().lower().startswith("where:"):
+            return unescape(line.strip()[6:])
+    return ""
+
+
 def upcoming(events, now):
     result = []
     for event in events:
@@ -68,7 +80,7 @@ def upcoming(events, now):
             "start": start.isoformat(),
             "date": start.strftime("%a, %b %-d"),
             "time": start.strftime("%-I:%M %p"),
-            "location": unescape(event.get("LOCATION", ("", ""))[1]),
+            "location": find_location(event),
             "url": event.get("URL", ("", ""))[1].strip(),
         })
     result.sort(key=lambda item: item["start"])
