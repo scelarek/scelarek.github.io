@@ -62,8 +62,9 @@ def find_location(event):
         return location
     description = event.get("DESCRIPTION", ("", ""))[1].replace("\\n", "\n")
     for line in description.split("\n"):
-        if line.strip().lower().startswith("where:"):
-            return unescape(line.strip()[6:])
+        plain = line.replace("*", "").strip()
+        if plain.lower().startswith("where:"):
+            return unescape(plain[6:])
     return ""
 
 
