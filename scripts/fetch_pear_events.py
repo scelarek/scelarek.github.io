@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-FEED_URL = "https://www.meetup.com/portland-effective-altruists-and-rationalists/events/ical/"
+FEED_URL = "https://www.meetup.com/portland-effective-altruism-and-rationality/events/ical/"
 OUT_PATH = Path(__file__).resolve().parent.parent / "_data" / "pear_events.json"
 PACIFIC = ZoneInfo("America/Los_Angeles")
 MAX_EVENTS = 8

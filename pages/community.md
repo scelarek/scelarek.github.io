@@ -39,7 +39,7 @@
     {% else %}
     <p>Weekly Thursday dinners, book clubs and AI safety meetups. See what's coming up on Meetup.</p>
     {% endif %}
-    <a class="more" href="https://www.meetup.com/portland-effective-altruists-and-rationalists/events/">Full calendar on Meetup →</a>
+    <a class="more" href="https://www.meetup.com/portland-effective-altruism-and-rationality/events/">Full calendar on Meetup →</a>
 </div>
 
 <div class="block">
@@ -66,7 +66,7 @@
 <div class="block">
     <h2><span class="ico">🔗</span>Join in</h2>
     <div class="btn-grid" style="max-width:520px">
-        <a class="btn primary" href="https://www.meetup.com/portland-effective-altruists-and-rationalists/">Meetup (1,000+ members)</a>
+        <a class="btn primary" href="https://www.meetup.com/portland-effective-altruism-and-rationality/">Meetup (1,000+ members)</a>
         <a class="btn" href="https://pearcommunity.com">PEAR website</a>
         <a class="btn" href="https://groups.google.com/g/lesswrong-portland">Mailing list</a>
         <a class="btn" href="https://forum.effectivealtruism.org/groups/Gm5NiojRmw9eSDurE">EA Forum group</a>
