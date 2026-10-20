@@ -1,4 +1,69 @@
 {
-  "updated": "",
-  "events": []
+  "updated": "Oct 20, 2026",
+  "events": [
+    {
+      "title": "PEAR Dinner Social",
+      "start": "2026-10-22T18:30:00-07:00",
+      "date": "Thu, Oct 22",
+      "time": "6:30 PM",
+      "location": "",
+      "url": "https://www.meetup.com/portland-effective-altruism-and-rationality/events/316822655/"
+    },
+    {
+      "title": "PEAR Dinner Social",
+      "start": "2026-10-29T18:30:00-07:00",
+      "date": "Thu, Oct 29",
+      "time": "6:30 PM",
+      "location": "",
+      "url": "https://www.meetup.com/portland-effective-altruism-and-rationality/events/316919636/"
+    },
+    {
+      "title": "PEAR Dinner Social",
+      "start": "2026-11-05T18:30:00-08:00",
+      "date": "Thu, Nov 5",
+      "time": "6:30 PM",
+      "location": "",
+      "url": "https://www.meetup.com/portland-effective-altruism-and-rationality/events/317020796/"
+    },
+    {
+      "title": "ACX Meetups Everywhere: Fall Edition!",
+      "start": "2026-11-08T17:30:00-08:00",
+      "date": "Sun, Nov 8",
+      "time": "5:30 PM",
+      "location": "",
+      "url": "https://www.meetup.com/portland-effective-altruism-and-rationality/events/316960882/"
+    },
+    {
+      "title": "PEAR Dinner Social",
+      "start": "2026-11-12T18:30:00-08:00",
+      "date": "Thu, Nov 12",
+      "time": "6:30 PM",
+      "location": "",
+      "url": "https://www.meetup.com/portland-effective-altruism-and-rationality/events/jvbbvtyjcpbqb/"
+    },
+    {
+      "title": "Rationalist Book Club (RBC): better living through cooperative reading",
+      "start": "2026-11-13T18:00:00-08:00",
+      "date": "Fri, Nov 13",
+      "time": "6:00 PM",
+      "location": "",
+      "url": "https://www.meetup.com/portland-effective-altruism-and-rationality/events/315814916/"
+    },
+    {
+      "title": "PEAR Dinner Social",
+      "start": "2026-11-19T18:30:00-08:00",
+      "date": "Thu, Nov 19",
+      "time": "6:30 PM",
+      "location": "",
+      "url": "https://www.meetup.com/portland-effective-altruism-and-rationality/events/jvbbvtyjcpbzb/"
+    },
+    {
+      "title": "PEAR Dinner Social",
+      "start": "2026-11-26T18:30:00-08:00",
+      "date": "Thu, Nov 26",
+      "time": "6:30 PM",
+      "location": "",
+      "url": "https://www.meetup.com/portland-effective-altruism-and-rationality/events/jvbbvtyjcpbjc/"
+    }
+  ]
 }
