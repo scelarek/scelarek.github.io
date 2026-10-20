@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Show the start of the feed
+        run: curl -sL "https://www.meetup.com/portland-effective-altruism-and-rationality/events/ical/" | head -40
       - run: python scripts/fetch_pear_events.py
       - name: Commit if the events changed
         run: |
