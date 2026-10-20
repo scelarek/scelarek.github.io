@@ -4,7 +4,7 @@
     <p>Eight years as a nurse, including five in neuro ICUs and four on a hospital Quality Improvement &amp; Safety Council, two as chair. Then three years in data: I design databases, models and pipelines for healthcare questions, and I test them before anyone acts on them.</p>
 </div>
 
-<h2 class="section-title">Data work</h2>
+<h2 class="section-title">Work Experience · Data</h2>
 <div class="cards">
 
     <article class="card featured">
@@ -20,7 +20,7 @@
         <ul class="tags">
             <li>Bayesian hierarchical models</li><li>Risk adjustment</li><li>Record linkage</li><li>Price transparency data</li><li>Python</li><li>SQL</li><li>PostgreSQL</li>
         </ul>
-        <a class="more" href="/pages/babysteps.html">See the project →</a>
+        <a class="more" href="/pages/babysteps.html">See the work →</a>
     </article>
 
     <article class="card featured">
@@ -35,7 +35,7 @@
 
 </div>
 
-<h2 class="section-title">Nursing</h2>
+<h2 class="section-title">Work Experience · Nursing</h2>
 <div class="cards">
 
     <article class="card">
