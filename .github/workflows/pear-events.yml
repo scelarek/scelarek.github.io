@@ -17,7 +17,15 @@ jobs:
         with:
           python-version: "3.12"
       - name: Show the start of the feed
-        run: curl -sL "https://www.meetup.com/portland-effective-altruism-and-rationality/events/ical/" | head -40
+        run: |
+          curl -sL "https://www.meetup.com/portland-effective-altruism-and-rationality/events/ical/" -o feed.ics
+          python - <<'PY'
+          text = open("feed.ics", encoding="utf-8", errors="replace").read()
+          start = text.find("BEGIN:VEVENT")
+          block = text[start:start + 1500].replace("\r", "").replace("\n", " | ")
+          print("::notice title=feed-head::" + text[:200].replace("\r", "").replace("\n", " | "))
+          print("::notice title=first-event::" + block)
+          PY
       - run: python scripts/fetch_pear_events.py
       - name: Commit if the events changed
         run: |
