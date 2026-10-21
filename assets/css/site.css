@@ -105,6 +105,9 @@ section hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
 .profile .name { display: block; color: var(--ink); font-size: 26px; font-weight: 800; letter-spacing: -0.02em; margin: 0; }
 .profile .name:hover { text-decoration: none; color: var(--brand); }
 .profile .role {
+  display: table;
+  margin-left: auto !important;
+  margin-right: auto !important;
   display: inline-block;
   margin: 8px 0 4px;
   padding: 4px 12px;
