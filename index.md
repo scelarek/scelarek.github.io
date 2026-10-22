@@ -46,7 +46,7 @@
 <div class="cards">
 
     <article class="card featured">
-        <p class="eyebrow">Featured · Cofounder &amp; Data Analyst · 2023–2026 · Portland, OR</p>
+        <p class="eyebrow">Featured · Cofounder &amp; Data Analyst · 2023 – present · Portland, OR</p>
         <h2><a href="/pages/babysteps.html">Baby Steps IVF</a></h2>
         <p>Compares 400+ US fertility clinics on outcomes adjusted for the patients each clinic actually treats, so clinics that take harder cases aren't penalized.</p>
         <div class="stats">

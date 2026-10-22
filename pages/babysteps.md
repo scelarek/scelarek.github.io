@@ -1,5 +1,5 @@
 <div class="page-hero">
-    <p class="eyebrow">Cofounder &amp; Data Analyst · Aug 2023 – Sep 2026</p>
+    <p class="eyebrow">Cofounder &amp; Data Analyst · Aug 2023 – present</p>
     <h1><a href="https://www.makebabysteps.com/">Baby Steps IVF</a></h1>
     <p class="sub">makebabysteps.com · Portland, OR</p>
     <p class="lede">Patients choosing an IVF clinic see raw success rates, and those rates reward clinics for treating easier patients. Baby Steps compares clinics on outcomes adjusted for the patients each clinic actually treats.</p>
