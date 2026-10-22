@@ -67,7 +67,7 @@
             <li>Ran yearly initiatives on hand hygiene, falls, sepsis recognition, device days (CAUTI and CLABSI) and smart-pump guardrails, tracked monthly against national patient safety goals and reported to hospital leadership.</li>
             <li>Worked with Epic support on documentation audits and drop-down design for central line care, and trained nurses on new workflows at each Epic go-live.</li>
             <li>Audited patient charting to find barriers and lapses, then improved workflows.</li>
-            <li>As charge nurse, handled staffing, assignments, patient acuity and emergencies, and mentored new nurses and council members. Two-time DAISY Award winner.</li>
+            <li>As charge nurse, handled staffing, assignments, patient acuity and emergencies, and mentored new nurses and council members. Won the DAISY Award twice, once on the step-down floor and once in the neuro ICU.</li>
         </ul>
     </div>
     <div class="block">

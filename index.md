@@ -5,23 +5,42 @@
 </div>
 
 <h2 class="section-title">Career Timeline</h2>
-<div class="card career-card">
-    <ol class="career">
-        <li class="edu"><span class="yr">2010</span><div><b><a href="/pages/education.html">Started nursing school at Saint Louis University</a></b><span>BSN, Aug 2010 – May 2014 · Provost Scholar</span></div></li>
-        <li class="nurse"><span class="yr">2014</span><div><b><a href="/pages/quality.html">Nurse and charge nurse, neuro step-down floor</a></b><span>SSM Saint Louis University Hospital · St. Louis, MO</span></div></li>
-        <li class="nurse"><span class="yr">2015</span><div><b><a href="/pages/quality.html">Joined the QI &amp; Safety Council</a></b><span>Hospital-wide quality and patient safety work</span></div></li>
-        <li class="nurse"><span class="yr">2016</span><div><b><a href="/pages/quality.html">Council secretary</a></b></div></li>
-        <li class="nurse"><span class="yr">2017</span><div><b><a href="/pages/quality.html">Council vice chair · moved to the neuro ICU</a></b><span>SSM Saint Louis University Hospital</span></div></li>
-        <li class="nurse"><span class="yr">2018–19</span><div><b><a href="/pages/quality.html">Council chair</a></b><span>Central line infections fell 41% · barcode scanning 94.1% → 95.4% · two-time DAISY Award</span></div></li>
-        <li class="nurse"><span class="yr">2019</span><div><b><a href="/pages/quality.html">Moved to Portland · critical care nurse, neuro ICU</a></b><span>Providence St. Vincent Medical Center · Scheduling Committee chair, Excel scheduling model</span></div></li>
-        <li class="community"><span class="yr">2021–22</span><div><b><a href="/pages/community.html">Began organizing PEAR</a></b><span>Portland Effective Altruism &amp; Rationality · EA Funds grant · now 1,166 members</span></div></li>
-        <li class="edu"><span class="yr">2022</span><div><b>Family caregiving</b></div></li>
-        <li class="edu"><span class="yr">2023</span><div><b><a href="/pages/education.html">BrainStation Diploma in Data Science</a></b><span>May – Aug 2023 · top of cohort (98%) · <a href="/daport.html">data analysis</a> and <a href="/dsport.html">data science projects</a>, <a href="/pages/covid.html">CovidCast capstone</a></span></div></li>
-        <li class="data"><span class="yr">2023</span><div><b><a href="/pages/babysteps.html">Cofounded Baby Steps IVF</a> · <a href="/pages/nerevu.html">data analyst at Nerevu Group</a></b><span>IVF outcomes database of 3M+ cycles · production SQL Server and Python pipelines</span></div></li>
-        <li class="data now"><span class="yr">Oct 2026</span><div><b>Baby Steps IVF · contract data work for Nerevu</b><span>Open to full-time healthcare data roles · <a href="https://docs.google.com/document/d/1hS5jZ1OP01rAFlEYJojIRslDCO2TWNV3jBo8k4aewU0/edit?usp=sharing">see my résumé</a></span></div></li>
-    </ol>
-    <ul class="career-key"><li class="nurse">Nursing</li><li class="edu">Education &amp; transition</li><li class="community">Community</li><li class="data">Data</li></ul>
+<div class="card htl">
+    <div class="htl-head">
+        <ul class="career-key"><li class="nurse">Nursing</li><li class="edu">Education &amp; transition</li><li class="community">Community</li><li class="data">Data</li></ul>
+        <p class="htl-hint">Click a point, or use the arrows, to step through my career.</p>
+        <div class="htl-nav"><button class="htl-prev" aria-label="Previous">←</button><button class="htl-next" aria-label="Next">→</button></div>
+    </div>
+    <div class="htl-scroll">
+        <div class="htl-track" role="tablist" aria-label="Career timeline">
+            <button class="htl-stop edu" role="tab" id="htl-tab-0" aria-controls="htl-panel-0" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2010</span><span class="htl-short">SLU</span></button>
+            <button class="htl-stop nurse" role="tab" id="htl-tab-1" aria-controls="htl-panel-1" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2014</span><span class="htl-short">SSM floor</span></button>
+            <button class="htl-stop nurse" role="tab" id="htl-tab-2" aria-controls="htl-panel-2" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2015</span><span class="htl-short">QI council</span></button>
+            <button class="htl-stop nurse" role="tab" id="htl-tab-3" aria-controls="htl-panel-3" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2016</span><span class="htl-short">Secretary</span></button>
+            <button class="htl-stop nurse" role="tab" id="htl-tab-4" aria-controls="htl-panel-4" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2017</span><span class="htl-short">Vice chair · ICU</span></button>
+            <button class="htl-stop nurse" role="tab" id="htl-tab-5" aria-controls="htl-panel-5" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2018–19</span><span class="htl-short">Chair</span></button>
+            <button class="htl-stop nurse" role="tab" id="htl-tab-6" aria-controls="htl-panel-6" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2019</span><span class="htl-short">Providence</span></button>
+            <button class="htl-stop community" role="tab" id="htl-tab-7" aria-controls="htl-panel-7" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2021</span><span class="htl-short">PEAR</span></button>
+            <button class="htl-stop edu" role="tab" id="htl-tab-8" aria-controls="htl-panel-8" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2022</span><span class="htl-short">Family</span></button>
+            <button class="htl-stop edu" role="tab" id="htl-tab-9" aria-controls="htl-panel-9" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2023</span><span class="htl-short">BrainStation</span></button>
+            <button class="htl-stop data" role="tab" id="htl-tab-10" aria-controls="htl-panel-10" aria-selected="false" tabindex="-1"><span class="htl-dot"></span><span class="htl-yr">2023</span><span class="htl-short">Baby Steps · Nerevu</span></button>
+            <button class="htl-stop data" role="tab" id="htl-tab-11" aria-controls="htl-panel-11" aria-selected="true" tabindex="0"><span class="htl-dot"></span><span class="htl-yr">Oct 2026</span><span class="htl-short">Now</span></button>
+        </div>
+    </div>
+        <div class="htl-panel edu" role="tabpanel" id="htl-panel-0" aria-labelledby="htl-tab-0" hidden><p class="eyebrow">2010 · Education</p><h3>Started nursing school at Saint Louis University</h3><p>BSN, Aug 2010 – May 2014. Graduated as a Provost Scholar.</p><p class="htl-links"><a class="more" href="/pages/education.html">See education →</a></p></div>
+        <div class="htl-panel nurse" role="tabpanel" id="htl-panel-1" aria-labelledby="htl-tab-1" hidden><p class="eyebrow">2014 · Nursing</p><h3>Nurse and charge nurse, neuro step-down floor</h3><p>SSM Saint Louis University Hospital, St. Louis, MO. Charge nurse for staffing, acuity and escalations. Won a DAISY Award on the floor.</p><p class="htl-links"><a class="more" href="/pages/quality.html">See nursing →</a></p></div>
+        <div class="htl-panel nurse" role="tabpanel" id="htl-panel-2" aria-labelledby="htl-tab-2" hidden><p class="eyebrow">2015 · Nursing</p><h3>Joined the QI &amp; Safety Council</h3><p>Hospital-wide quality and patient safety work with pharmacy, physicians, infection control and Epic support.</p><p class="htl-links"><a class="more" href="/pages/quality.html">See nursing →</a></p></div>
+        <div class="htl-panel nurse" role="tabpanel" id="htl-panel-3" aria-labelledby="htl-tab-3" hidden><p class="eyebrow">2016 · Nursing</p><h3>Council secretary</h3><p>Second year on the QI &amp; Safety Council.</p><p class="htl-links"><a class="more" href="/pages/quality.html">See nursing →</a></p></div>
+        <div class="htl-panel nurse" role="tabpanel" id="htl-panel-4" aria-labelledby="htl-tab-4" hidden><p class="eyebrow">2017 · Nursing</p><h3>Council vice chair, and moved to the neuro ICU</h3><p>Started in the SSM neuro ICU, where I won my second DAISY Award.</p><p class="htl-links"><a class="more" href="/pages/quality.html">See nursing →</a></p></div>
+        <div class="htl-panel nurse" role="tabpanel" id="htl-panel-5" aria-labelledby="htl-tab-5" hidden><p class="eyebrow">2018–19 · Nursing</p><h3>QI &amp; Safety Council chair</h3><p>Central line infections fell 41% (2.32 to 1.37 per 1,000 line days). Barcode scanning rose from 94.1% to 95.4%.</p><p class="htl-links"><a class="more" href="/pages/quality.html">See nursing →</a></p></div>
+        <div class="htl-panel nurse" role="tabpanel" id="htl-panel-6" aria-labelledby="htl-tab-6" hidden><p class="eyebrow">2019 · Nursing</p><h3>Moved to Portland: critical care nurse, neuro ICU</h3><p>Providence St. Vincent Medical Center. Scheduling Committee chair; created the unit's Excel scheduling model.</p><p class="htl-links"><a class="more" href="/pages/quality.html">See nursing →</a></p></div>
+        <div class="htl-panel community" role="tabpanel" id="htl-panel-7" aria-labelledby="htl-tab-7" hidden><p class="eyebrow">2021 · Community</p><h3>Began organizing PEAR</h3><p>Portland Effective Altruism &amp; Rationality. Won an EA Funds grant to grow it; now 1,166 members and community-funded.</p><p class="htl-links"><a class="more" href="/pages/community.html">See PEAR →</a></p></div>
+        <div class="htl-panel edu" role="tabpanel" id="htl-panel-8" aria-labelledby="htl-tab-8" hidden><p class="eyebrow">2022 · Transition</p><h3>Family caregiving</h3><p>Stepped away from the bedside to care for family.</p><p class="htl-links"></p></div>
+        <div class="htl-panel edu" role="tabpanel" id="htl-panel-9" aria-labelledby="htl-tab-9" hidden><p class="eyebrow">2023 · Education</p><h3>BrainStation Diploma in Data Science</h3><p>May – Aug 2023, top of cohort (98%). Data analysis and data science projects, and the CovidCast forecasting capstone.</p><p class="htl-links"><a class="more" href="/pages/education.html">See education →</a> <a href="/daport.html">Data analysis projects</a> · <a href="/dsport.html">Data science projects</a> · <a href="/pages/covid.html">CovidCast</a></p></div>
+        <div class="htl-panel data" role="tabpanel" id="htl-panel-10" aria-labelledby="htl-tab-10" hidden><p class="eyebrow">2023 · Data</p><h3>Cofounded Baby Steps IVF · data analyst at Nerevu Group</h3><p>An IVF outcomes database of 3M+ cycles comparing 400+ clinics, and production SQL Server and Python pipelines.</p><p class="htl-links"><a class="more" href="/pages/babysteps.html">See Baby Steps →</a> <a href="/pages/nerevu.html">See Nerevu →</a></p></div>
+        <div class="htl-panel data" role="tabpanel" id="htl-panel-11" aria-labelledby="htl-tab-11"><p class="eyebrow">Oct 2026 · Data</p><h3>Baby Steps IVF · contract data work for Nerevu</h3><p>Open to full-time healthcare data roles.</p><p class="htl-links"><a class="more" href="https://docs.google.com/document/d/1hS5jZ1OP01rAFlEYJojIRslDCO2TWNV3jBo8k4aewU0/edit?usp=sharing">See my résumé →</a></p></div>
 </div>
+<script src="/assets/js/timeline.js" defer></script>
 
 <h2 class="section-title">Work Experience</h2>
 <div class="cards">
@@ -64,7 +83,7 @@
     <article class="card">
         <p class="eyebrow">Charge Nurse &amp; QI Council Chair · Jul 2014 – Jul 2019 · St. Louis, MO</p>
         <h2><a href="/pages/quality.html">SSM Saint Louis University Hospital</a></h2>
-        <p>Four years on the QI &amp; Safety Council, two as chair. Central line infections fell 41% after a house-wide rollout I led. Two-time DAISY Award winner.</p>
+        <p>Four years on the QI &amp; Safety Council, two as chair. Central line infections fell 41% after a house-wide rollout I led. DAISY Award winner twice, once on the step-down floor and once in the neuro ICU.</p>
         <ul class="tags"><li>Quality metrics</li><li>Chart audits</li><li>Epic</li><li>Process improvement</li><li>Leadership</li></ul>
         <a class="more" href="/pages/quality.html">See the results →</a>
     </article>
@@ -74,9 +93,9 @@
 <h2 class="section-title">Community</h2>
 <div class="cards">
     <article class="card featured">
-        <p class="eyebrow">Organizer · 6 years · Portland, OR</p>
+        <p class="eyebrow">Organizer · Since 2021 · Portland, OR</p>
         <h2><a href="/pages/community.html">Portland Effective Altruism &amp; Rationality (PEAR)</a></h2>
-        <p>Led Portland's effective altruism and rationality community for six years: won an EA Funds grant to grow it, then moved it to community funding. 1,166 members, 547 events, a 4.6-star rating, weekly dinners and a book club.</p>
+        <p>Led Portland's effective altruism and rationality community since 2021: won an EA Funds grant to grow it, then moved it to community funding. 1,166 members, 547 events, a 4.6-star rating, weekly dinners and a book club.</p>
         <ul class="tags"><li>Community building</li><li>Grant writing</li><li>Fundraising</li><li>Event organizing</li><li>AI safety</li></ul>
         <a class="more" href="/pages/community.html">See the community →</a>
     </article>

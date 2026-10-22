@@ -1,8 +1,8 @@
 <div class="page-hero">
-    <p class="eyebrow">Community organizer · 6 years</p>
+    <p class="eyebrow">Community organizer · Since 2021</p>
     <h1>Portland Effective Altruism &amp; Rationality</h1>
     <p class="sub">PEAR · Portland, Oregon</p>
-    <p class="lede">For six years I've helped lead PEAR, Portland's home for effective altruism and rationality. I won an EA Funds grant to grow it, and PEAR is now community-funded through member donations.</p>
+    <p class="lede">Since 2021 I've helped lead PEAR, Portland's home for effective altruism and rationality. I won an EA Funds grant to grow it, and PEAR is now community-funded through member donations.</p>
     <div class="stats">
         <div class="stat"><b>1,166</b><span>members on Meetup</span></div>
         <div class="stat"><b>547</b><span>events hosted</span></div>
@@ -14,7 +14,7 @@
 <div class="block">
     <h2><span class="ico">🌱</span>What I've done</h2>
     <ul>
-        <li><b>Led the community for six years</b>, now with a 13-person organizer team. The Meetup group has 1,166 members, 547 events and a 4.6-star rating from 107 reviews.</li>
+        <li><b>Leading the community since 2021</b>, now with a 13-person organizer team. The Meetup group has 1,166 members, 547 events and a 4.6-star rating from 107 reviews.</li>
         <li><b>Won an EA Funds grant</b>, administered by the Centre for Effective Altruism (Sept 2021 – Sept 2022), to expand meetups, grow membership and advertise locally. I tracked the spending and wrote the progress and final reports.</li>
         <li><b>Moved PEAR to community funding</b>: tiered member donations, from $15 to cover one person's attendance up to $250+ committee members, plus volunteer roles, so big events like the ACX meetup and Solstice no longer depend on grants.</li>
         <li>Serve as a contact in the group's <b>community health and safety</b> process, alongside a feedback form and a direct line to the organizer team.</li>
