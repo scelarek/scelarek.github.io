@@ -35,38 +35,39 @@
     <div class="block">
         <h2><span class="ico">💊</span>Barcode medication scanning</h2>
         <figure class="viz">
-            <svg viewBox="0 0 370 150" role="img" aria-label="Barcode scanning compliance rose from 94.1 percent to 95.4 percent against a 97 percent target">
-                <line class="axis" x1="30" y1="96" x2="350" y2="96"/>
-                <g class="lbl">
-                    <text x="30" y="118" text-anchor="middle">90%</text>
-                    <text x="94" y="118" text-anchor="middle">92%</text>
-                    <text x="158" y="118" text-anchor="middle">94%</text>
-                    <text x="222" y="118" text-anchor="middle">96%</text>
-                    <text x="286" y="118" text-anchor="middle">98%</text>
-                    <text x="350" y="118" text-anchor="middle">100%</text>
-                </g>
-                <line class="target" x1="254" y1="34" x2="254" y2="104"/>
-                <text x="254" y="26" text-anchor="middle" class="lbl" style="font-weight:700">Target 97%</text>
-                <line x1="170" y1="96" x2="194" y2="96" stroke="#008aa0" stroke-width="3"/>
-                <g class="mark"><circle cx="161" cy="96" r="9" fill="#8a979c" stroke="#fff" stroke-width="2"><title>Before: 94.1%</title></circle><text class="val" x="155" y="76" text-anchor="middle">94.1%</text></g>
-                <g class="mark"><circle cx="203" cy="96" r="9" fill="#008aa0" stroke="#fff" stroke-width="2"><title>After: 95.4%</title></circle><text class="val" x="208" y="58" text-anchor="middle">95.4%</text></g>
-                <g class="lbl"><circle cx="36" cy="140" r="6" fill="#8a979c"/><text x="48" y="144">Before</text><circle cx="116" cy="140" r="6" fill="#008aa0"/><text x="128" y="144">After</text></g>
+            <svg viewBox="0 0 370 236" role="img" aria-label="Medications given without a bedside scan fell from 5.9 percent to 4.6 percent, against a target of 3 percent or less">
+                <line class="grid" x1="44" y1="70" x2="360" y2="70"/>
+                <line class="grid" x1="44" y1="110" x2="360" y2="110"/>
+                <line class="grid" x1="44" y1="150" x2="360" y2="150"/>
+                <line class="axis" x1="44" y1="190" x2="360" y2="190"/>
+                <text class="lbl" x="36" y="194" text-anchor="end">0%</text>
+                <text class="lbl" x="36" y="154" text-anchor="end">2%</text>
+                <text class="lbl" x="36" y="114" text-anchor="end">4%</text>
+                <text class="lbl" x="36" y="74" text-anchor="end">6%</text>
+                <g class="mark"><rect class="bar bar-before" x="86" y="72" width="72" height="118" rx="4"><title>Before: 5.9% unscanned (94.1% scanned)</title></rect><text class="val" x="122" y="63" text-anchor="middle">5.9%</text><text class="lbl" x="122" y="208" text-anchor="middle">Before</text><text class="lbl" x="122" y="224" text-anchor="middle">94.1% scanned</text></g>
+                <g class="mark"><rect class="bar bar-after" x="256" y="98" width="72" height="92" rx="4"><title>After: 4.6% unscanned (95.4% scanned)</title></rect><text class="val" x="292" y="89" text-anchor="middle">4.6%</text><text class="lbl" x="292" y="208" text-anchor="middle">After</text><text class="lbl" x="292" y="224" text-anchor="middle">95.4% scanned</text></g>
+                <line class="target" x1="44" y1="130" x2="360" y2="130"/>
+                <text class="lbl" x="207" y="146" text-anchor="middle" style="font-weight:700">Target ≤ 3%</text>
+                <defs><marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#c2621a"/></marker></defs>
+                <path d="M172 52 C 205 52, 222 64, 242 82" fill="none" stroke="#c2621a" stroke-width="2" marker-end="url(#arr2)"/>
+                <text x="206" y="42" text-anchor="middle" style="fill:#c2621a;font-weight:800;font-size:16px">−22%</text>
             </svg>
-            <figcaption>Share of medications scanned at the bedside.</figcaption>
+            <figcaption>Share of medications given without a bedside barcode scan. The 3% target equals 97% scanned.</figcaption>
         </figure>
-        <p>Raised with staff education, incentives and new equipment.</p>
+        <p>Tracked compliance monthly against a 97% target and published unit-level scores. Catalogued the barriers (unreadable wristbands, scanner reach, verification timing), routed them to a barriers assessment team, and worked through them with pharmacy and physicians. Staff education, incentives and new equipment raised scanning from 94.1% to 95.4%, cutting unscanned doses by about a fifth.</p>
     </div>
 </div>
 
 <div class="split">
     <div class="block">
         <h2><span class="ico">🏥</span>SSM Saint Louis University Hospital</h2>
-        <p><b>Charge Nurse &amp; QI and Safety Council Chair · 2014 – 2019</b></p>
+        <p><b>Charge Nurse, Neuro Step-Down · Jul 2014 – Oct 2017</b><br><b>Neuro ICU Nurse &amp; QI and Safety Council Chair · Nov 2017 – Jul 2019</b></p>
         <ul>
-            <li>Led the council's work with pharmacy, physicians, infection control and Epic support, and presented results to hospital leadership.</li>
+            <li>Led a council of 6–8 nurses working alongside pharmacy, physicians, infection control and Epic support.</li>
+            <li>Ran yearly initiatives on hand hygiene, falls, sepsis recognition, device days (CAUTI and CLABSI) and smart-pump guardrails, tracked monthly against national patient safety goals and reported to hospital leadership.</li>
             <li>Worked with Epic support on documentation audits and drop-down design for central line care, and trained nurses on new workflows at each Epic go-live.</li>
             <li>Audited patient charting to find barriers and lapses, then improved workflows.</li>
-            <li>Charge nurse for staffing, acuity and escalations. Two-time DAISY Award winner.</li>
+            <li>As charge nurse, handled staffing, assignments, patient acuity and emergencies, and mentored new nurses and council members. Two-time DAISY Award winner.</li>
         </ul>
     </div>
     <div class="block">
@@ -75,7 +76,7 @@
             <li><span class="when">2015</span>Joined the QI &amp; Safety Council</li>
             <li><span class="when">2016</span>Secretary</li>
             <li><span class="when">2017</span>Vice chair</li>
-            <li class="now"><span class="when">2018 – 2019</span>Chair</li>
+            <li class="now"><span class="when">Nov 2017 – Jul 2019</span>Chair</li>
         </ul>
     </div>
 </div>
@@ -84,8 +85,9 @@
     <h2><span class="ico">🧠</span>Providence St. Vincent Medical Center</h2>
     <p><b>Critical Care Nurse &amp; Scheduling Committee Chair, Neuro ICU · 2019 – 2022</b></p>
     <ul>
-        <li>Made treatment decisions from labs, assessments and live monitoring on a multidisciplinary neuro critical care (NCCU) team.</li>
-        <li>As Scheduling Committee chair, created an Excel scoring model that balanced unit staffing needs with nurse preferences and automated shift assignment.</li>
+        <li>Cared for critically ill neurological and respiratory patients on a multidisciplinary neuro critical care (NCCU) team.</li>
+        <li>Made treatment decisions from patient history, labs, assessments and real-time physiological monitoring.</li>
+        <li>As Scheduling Committee chair, created an Excel scoring model that ranked and assigned shift requests against staffing rules, balancing unit needs with nurse preferences.</li>
     </ul>
 </div>
 

@@ -1,9 +1,12 @@
 <div class="profile">
-    <img class="avatar" src="/images/Circle Sam.png?raw=true" alt="Sam Celarek">
-    <a class="name" href="/">Sam Celarek</a>
-    <span class="role">Healthcare Data Analyst</span>
-    <p class="place">Former Neuro ICU Nurse</p>
-    <p class="place">Portland, Oregon</p>
+    <a class="home" href="/" title="Back to home">
+        <img class="avatar" src="/images/Circle Sam.png?raw=true" alt="Sam Celarek">
+        <span class="name">Sam Celarek</span>
+        <span class="role">Healthcare Data Analyst</span>
+        <span class="place">Former Neuro ICU Nurse</span>
+        <span class="place">Portland, Oregon</span>
+    </a>
+    {% if page.url != "/" %}<a class="home-link" href="/">← Back to home</a>{% endif %}
 
     <ul class="highlights">
         <li><b>3M+</b> IVF cycles in a database I designed</li>

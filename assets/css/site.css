@@ -117,7 +117,22 @@ section hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
   font-weight: 700;
   font-size: 14px;
 }
-.profile .place { color: var(--ink-3); font-size: 14px; margin: 2px 0 0; }
+.profile .place { color: var(--ink-3); font-size: 14px; margin: 2px 0 0; display: block; }
+.profile .home { display: block; color: inherit; border-radius: 16px; }
+.profile .home .avatar { transition: transform .2s ease, box-shadow .2s ease; }
+.profile .home:hover .avatar { transform: scale(1.04); box-shadow: 0 8px 22px rgba(0, 60, 75, .35); }
+.profile .home:hover .name { color: var(--brand); }
+.profile .home-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--brand);
+  font-size: 14px;
+  font-weight: 700;
+}
+.profile .home-link:hover { background: var(--mint); }
 .profile ul.highlights {
   list-style: none;
   margin: 18px 0 20px;
