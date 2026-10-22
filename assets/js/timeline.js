@@ -35,6 +35,21 @@
       if (rowTab && event.target !== rowTab) rowTab.click();
     });
   });
+  function fitLabels() {
+    Array.prototype.forEach.call(root.querySelectorAll(".gt-item.inside"), function (item) {
+      item.classList.add("fits");
+      var text = item.querySelector(".gt-in");
+      if (text.scrollWidth > text.clientWidth + 1) item.classList.remove("fits");
+    });
+    Array.prototype.forEach.call(root.querySelectorAll(".gt-seg"), function (seg) {
+      seg.classList.remove("tight");
+      var text = seg.querySelector(".gt-seg-text");
+      if (text && text.scrollWidth > text.clientWidth) seg.classList.add("tight");
+    });
+  }
+  fitLabels();
+  window.addEventListener("resize", fitLabels);
+  window.addEventListener("load", fitLabels);
   root.querySelector(".htl-prev").addEventListener("click", function () { select(current - 1, false); });
   root.querySelector(".htl-next").addEventListener("click", function () { select(current + 1, false); });
 })();
