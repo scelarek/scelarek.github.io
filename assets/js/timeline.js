@@ -28,6 +28,13 @@
       if (event.key === "End") { event.preventDefault(); select(tabs.length - 1, true); }
     });
   });
+  Array.prototype.forEach.call(root.querySelectorAll(".gt-group"), function (group) {
+    group.addEventListener("click", function (event) {
+      if (event.target.closest(".gt-seg")) return;
+      var rowTab = group.querySelector(".gt-row-tab");
+      if (rowTab && event.target !== rowTab) rowTab.click();
+    });
+  });
   root.querySelector(".htl-prev").addEventListener("click", function () { select(current - 1, false); });
   root.querySelector(".htl-next").addEventListener("click", function () { select(current + 1, false); });
 })();
