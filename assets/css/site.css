@@ -396,6 +396,17 @@ figure.viz figcaption { font-size: 13px; color: var(--ink-3); margin-top: 8px; }
 .gt-item[aria-selected="true"] { background: color-mix(in srgb, var(--dot) 10%, transparent); }
 .gt-item[aria-selected="true"] .gt-bar { opacity: 1; box-shadow: 0 0 0 2px var(--card), 0 0 0 4px var(--dot); }
 .gt-item[aria-selected="true"] .gt-label { color: var(--ink); font-weight: 700; }
+.gt-group { cursor: default; }
+.gt-seg { position: absolute; top: 6px; height: 14px; padding: 0; border: 0; border-left: 2px solid var(--card); background: color-mix(in srgb, var(--dot) var(--shade), #fff); cursor: pointer; transform-origin: left center; animation: gt-grow .7s cubic-bezier(.2, .7, .2, 1) both; animation-delay: calc(var(--i) * 45ms); }
+.gt-seg:first-child { border-left: 0; border-radius: 7px 0 0 7px; }
+.gt-seg:nth-last-child(2) { border-radius: 0 7px 7px 0; }
+.gt-seg:hover { filter: brightness(.95); }
+.gt-seg:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.gt-seg[aria-selected="true"] { top: 3px; height: 20px; border-radius: 5px; border-left-color: transparent; background: var(--dot); box-shadow: 0 2px 6px rgba(0, 0, 0, .25); z-index: 2; }
+.gt-group:has([aria-selected="true"]) { background: color-mix(in srgb, var(--dot) 10%, transparent); }
+.gt-group:has([aria-selected="true"]) .gt-label { color: var(--ink); font-weight: 700; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 600px) { .gt-seg { top: 8px; } .gt-seg[aria-selected="true"] { top: 5px; } }
 @keyframes gt-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 @keyframes gt-in { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .gt-item, .gt-bar { animation: none; } }
@@ -413,3 +424,4 @@ figure.viz figcaption { font-size: 13px; color: var(--ink-3); margin-top: 8px; }
 .htl-panel .htl-links { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px 14px; font-weight: 600; }
 .htl-panel .htl-links:empty { display: none; }
 .htl-hint { font-size: 12.5px; color: var(--ink-3); }
+.gt-tick:first-child { transform: none; }
