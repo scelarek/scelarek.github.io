@@ -363,3 +363,30 @@ figure.viz figcaption { font-size: 13px; color: var(--ink-3); margin-top: 8px; }
 .events .when span, .events .what span { display: block; font-size: 13.5px; color: var(--ink-3); }
 .events .what a { font-weight: 600; }
 .block .note { font-size: 13px; color: var(--ink-3); }
+
+.career-card { margin-bottom: 28px; }
+.career { list-style: none; margin: 0; padding: 0; position: relative; }
+.career::before { content: ""; position: absolute; left: 87px; top: 8px; bottom: 8px; width: 2px; background: var(--line); }
+.career li { display: grid; grid-template-columns: 74px 1fr; gap: 34px; align-items: start; margin: 0 0 14px; position: relative; }
+.career li:last-child { margin-bottom: 0; }
+.career li::before { content: ""; position: absolute; left: 80px; top: 4px; width: 10px; height: 10px; border-radius: 50%; background: #fff; border: 3px solid var(--dot); }
+.career li.now::before { background: var(--dot); }
+.career .yr { white-space: nowrap; text-align: right; font-size: 13px; font-weight: 800; color: var(--dot); letter-spacing: .02em; padding-top: 1px; }
+.career b { display: block; color: var(--ink); font-size: 15px; }
+.career li span:not(.yr) { display: block; color: var(--ink-3); font-size: 13.5px; margin-top: 1px; }
+.career .nurse, .career-key .nurse { --dot: #8a979c; }
+.career .edu, .career-key .edu { --dot: #c2621a; }
+.career .community, .career-key .community { --dot: var(--green); }
+.career .data, .career-key .data { --dot: #008aa0; }
+.career-key { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 16px 0 0; padding: 12px 0 0; border-top: 1px solid var(--line); font-size: 13px; color: var(--ink-3); }
+.career-key li { display: flex; align-items: center; gap: 6px; margin: 0; }
+.career-key li::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--dot); }
+@media (max-width: 520px) {
+  .career li { grid-template-columns: 64px 1fr; gap: 30px; }
+  .career .yr { font-size: 12px; }
+  .career::before { left: 75px; }
+  .career li::before { left: 69px; }
+}
+.career b a { color: var(--ink); }
+.career b a:hover { color: var(--brand); text-decoration: none; }
+.career li span a { color: var(--brand); }

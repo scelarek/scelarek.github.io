@@ -61,7 +61,7 @@
 <div class="split">
     <div class="block">
         <h2><span class="ico">🏥</span>SSM Saint Louis University Hospital</h2>
-        <p><b>Charge Nurse, Neuro Step-Down · Jul 2014 – Oct 2017</b><br><b>Neuro ICU Nurse &amp; QI and Safety Council Chair · Nov 2017 – Jul 2019</b></p>
+        <p><b>Charge Nurse, Neuro Step-Down · Jul 2014 – Oct 2017</b><br><b>Neuro ICU Nurse · Nov 2017 – Jul 2019</b><br><b>QI and Safety Council Chair · 2018 – 2019</b></p>
         <ul>
             <li>Led a council of 6–8 nurses working alongside pharmacy, physicians, infection control and Epic support.</li>
             <li>Ran yearly initiatives on hand hygiene, falls, sepsis recognition, device days (CAUTI and CLABSI) and smart-pump guardrails, tracked monthly against national patient safety goals and reported to hospital leadership.</li>
@@ -76,7 +76,7 @@
             <li><span class="when">2015</span>Joined the QI &amp; Safety Council</li>
             <li><span class="when">2016</span>Secretary</li>
             <li><span class="when">2017</span>Vice chair</li>
-            <li class="now"><span class="when">Nov 2017 – Jul 2019</span>Chair</li>
+            <li class="now"><span class="when">2018 – 2019</span>Chair</li>
         </ul>
     </div>
 </div>

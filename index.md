@@ -4,6 +4,25 @@
     <p>Eight years as a nurse, including five in neuro ICUs and four on a hospital Quality Improvement &amp; Safety Council, two as chair. Then three years in data: I design databases, models and pipelines for healthcare questions, and I test them before anyone acts on them.</p>
 </div>
 
+<h2 class="section-title">Career Timeline</h2>
+<div class="card career-card">
+    <ol class="career">
+        <li class="edu"><span class="yr">2010</span><div><b><a href="/pages/education.html">Started nursing school at Saint Louis University</a></b><span>BSN, Aug 2010 – May 2014 · Provost Scholar</span></div></li>
+        <li class="nurse"><span class="yr">2014</span><div><b><a href="/pages/quality.html">Nurse and charge nurse, neuro step-down floor</a></b><span>SSM Saint Louis University Hospital · St. Louis, MO</span></div></li>
+        <li class="nurse"><span class="yr">2015</span><div><b><a href="/pages/quality.html">Joined the QI &amp; Safety Council</a></b><span>Hospital-wide quality and patient safety work</span></div></li>
+        <li class="nurse"><span class="yr">2016</span><div><b><a href="/pages/quality.html">Council secretary</a></b></div></li>
+        <li class="nurse"><span class="yr">2017</span><div><b><a href="/pages/quality.html">Council vice chair · moved to the neuro ICU</a></b><span>SSM Saint Louis University Hospital</span></div></li>
+        <li class="nurse"><span class="yr">2018–19</span><div><b><a href="/pages/quality.html">Council chair</a></b><span>Central line infections fell 41% · barcode scanning 94.1% → 95.4% · two-time DAISY Award</span></div></li>
+        <li class="nurse"><span class="yr">2019</span><div><b><a href="/pages/quality.html">Moved to Portland · critical care nurse, neuro ICU</a></b><span>Providence St. Vincent Medical Center · Scheduling Committee chair, Excel scheduling model</span></div></li>
+        <li class="community"><span class="yr">2021–22</span><div><b><a href="/pages/community.html">Began organizing PEAR</a></b><span>Portland Effective Altruism &amp; Rationality · EA Funds grant · now 1,166 members</span></div></li>
+        <li class="edu"><span class="yr">2022</span><div><b>Family caregiving</b></div></li>
+        <li class="edu"><span class="yr">2023</span><div><b><a href="/pages/education.html">BrainStation Diploma in Data Science</a></b><span>May – Aug 2023 · top of cohort (98%) · <a href="/daport.html">data analysis</a> and <a href="/dsport.html">data science projects</a>, <a href="/pages/covid.html">CovidCast capstone</a></span></div></li>
+        <li class="data"><span class="yr">2023</span><div><b><a href="/pages/babysteps.html">Cofounded Baby Steps IVF</a> · <a href="/pages/nerevu.html">data analyst at Nerevu Group</a></b><span>IVF outcomes database of 3M+ cycles · production SQL Server and Python pipelines</span></div></li>
+        <li class="data now"><span class="yr">Oct 2026</span><div><b>Baby Steps IVF · contract data work for Nerevu</b><span>Open to full-time healthcare data roles · <a href="https://docs.google.com/document/d/1hS5jZ1OP01rAFlEYJojIRslDCO2TWNV3jBo8k4aewU0/edit?usp=sharing">see my résumé</a></span></div></li>
+    </ol>
+    <ul class="career-key"><li class="nurse">Nursing</li><li class="edu">Education &amp; transition</li><li class="community">Community</li><li class="data">Data</li></ul>
+</div>
+
 <h2 class="section-title">Work Experience</h2>
 <div class="cards">
 
