@@ -66,9 +66,9 @@
     </article>
 
     <article class="card featured">
-        <p class="eyebrow">Data Analyst · 2023–2026 · Nerevu Group LLC, Peoria, IL (remote)</p>
+        <p class="eyebrow">Data Analyst · 2023 – present · Nerevu Group LLC, Peoria, IL (remote)</p>
         <h2><a href="/pages/nerevu.html">Nerevu Group</a></h2>
-        <p>Production SQL Server, SSIS and Python pipelines, model evaluation and client reporting. Cut lead prep from 30+ minutes to about one.</p>
+        <p>Production Python and SQL Server pipelines, financial data integration, model evaluation, dashboards and published reports. Cut lead prep from 30+ minutes to about one.</p>
         <ul class="tags">
             <li>SQL Server</li><li>SSIS</li><li>Python</li><li>PostgreSQL</li><li>CI &amp; testing</li><li>Funnel analysis</li>
         </ul>
