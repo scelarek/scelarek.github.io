@@ -1,11 +1,12 @@
 (function () {
   var root = document.querySelector(".htl");
   if (!root) return;
-  var tabs = Array.prototype.slice.call(root.querySelectorAll(".htl-stop"));
-  var panels = Array.prototype.slice.call(root.querySelectorAll(".htl-panel"));
-  var current = tabs.length - 1;
+  var tabs = Array.prototype.slice.call(root.querySelectorAll("[role=tab]"));
+  tabs.sort(function (a, b) { return a.dataset.order - b.dataset.order; });
+  var panels = tabs.map(function (tab) { return document.getElementById(tab.getAttribute("aria-controls")); });
+  var current = tabs.findIndex(function (tab) { return tab.getAttribute("aria-selected") === "true"; });
 
-  function select(index, focus) {
+  function select(index, focus, moved) {
     index = Math.max(0, Math.min(tabs.length - 1, index));
     tabs.forEach(function (tab, i) {
       var on = i === index;
@@ -14,12 +15,12 @@
       panels[i].hidden = !on;
     });
     current = index;
-    tabs[index].scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+    if (!focus && moved) panels[index].scrollIntoView({ block: "nearest", behavior: "smooth" });
     if (focus) tabs[index].focus();
   }
 
   tabs.forEach(function (tab, i) {
-    tab.addEventListener("click", function () { select(i, false); });
+    tab.addEventListener("click", function () { select(i, false, true); });
     tab.addEventListener("keydown", function (event) {
       if (event.key === "ArrowRight") { event.preventDefault(); select(current + 1, true); }
       if (event.key === "ArrowLeft") { event.preventDefault(); select(current - 1, true); }
