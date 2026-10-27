@@ -441,5 +441,6 @@ figure.viz figcaption { font-size: 13px; color: var(--ink-3); margin-top: 8px; }
 .gt-item.fits .gt-bar { top: 3px; height: 20px; border-radius: 10px; opacity: .92; }
 .gt-item.fits.ongoing .gt-bar { border-radius: 10px 2px 2px 10px; }
 .gt-item.fits .gt-in { display: block; }
+.gt-item.snug .gt-in { padding: 0 3px; font-size: 10.5px; letter-spacing: -.1px; }
 .gt-seg.tight .gt-seg-text { visibility: hidden; }
 @media (max-width: 600px) { .gt-item.fits .gt-bar { top: 5px; } }

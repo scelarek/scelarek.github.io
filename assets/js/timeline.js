@@ -37,9 +37,14 @@
   });
   function fitLabels() {
     Array.prototype.forEach.call(root.querySelectorAll(".gt-item.inside"), function (item) {
-      item.classList.add("fits");
       var text = item.querySelector(".gt-in");
-      if (text.scrollWidth > text.clientWidth + 1) item.classList.remove("fits");
+      if (!text.dataset.full) text.dataset.full = text.textContent;
+      text.textContent = text.dataset.full;
+      item.classList.remove("snug");
+      item.classList.add("fits");
+      if (text.scrollWidth > text.clientWidth + 1) item.classList.add("snug");
+      if (text.scrollWidth > text.clientWidth + 1 && text.dataset.short) text.textContent = text.dataset.short;
+      if (text.scrollWidth > text.clientWidth + 1) item.classList.remove("fits", "snug");
     });
     Array.prototype.forEach.call(root.querySelectorAll(".gt-seg"), function (seg) {
       seg.classList.remove("tight");
