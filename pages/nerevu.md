@@ -7,7 +7,6 @@
         <div class="stat"><b>18</b><span>pipeline steps, sole programmer</span></div>
         <div class="stat"><b>~1,000</b><span>tests in CI</span></div>
         <div class="stat"><b>30 → 1</b><span>minutes of lead prep</span></div>
-        <div class="stat"><b>3×</b><span>lead volume</span></div>
     </div>
 </div>
 
@@ -30,29 +29,16 @@
     </div>
 </div>
 
-<div class="split">
-    <div class="block">
-        <h2><span class="ico">⏱️</span>Lead prep time</h2>
-        <figure class="viz">
-            <svg viewBox="0 0 370 110" role="img" aria-label="Lead preparation time fell from over 30 minutes to about 1 minute">
-                <line class="axis" x1="60" y1="6" x2="60" y2="100"/>
-                <g class="mark"><text class="lbl" x="52" y="34" text-anchor="end">Before</text><rect class="bar bar-before" x="60" y="14" width="240" height="30" rx="4"><title>Before: 30+ minutes per lead</title></rect><text class="val" x="308" y="34">30+ min</text></g>
-                <g class="mark"><text class="lbl" x="52" y="80" text-anchor="end">After</text><rect class="bar bar-after" x="60" y="60" width="8" height="30" rx="3"><title>After: about 1 minute per lead</title></rect><text class="val" x="76" y="80">~1 min</text></g>
-            </svg>
-            <figcaption>Minutes to prepare one lead.</figcaption>
-        </figure>
-    </div>
-    <div class="block">
-        <h2><span class="ico">📈</span>Lead volume</h2>
-        <figure class="viz">
-            <svg viewBox="0 0 370 110" role="img" aria-label="Lead volume tripled">
-                <line class="axis" x1="60" y1="6" x2="60" y2="100"/>
-                <g class="mark"><text class="lbl" x="52" y="34" text-anchor="end">Before</text><rect class="bar bar-before" x="60" y="14" width="80" height="30" rx="4"><title>Before: baseline volume</title></rect><text class="val" x="148" y="34">1×</text></g>
-                <g class="mark"><text class="lbl" x="52" y="80" text-anchor="end">After</text><rect class="bar bar-after" x="60" y="60" width="240" height="30" rx="4"><title>After: three times the volume</title></rect><text class="val" x="308" y="80">3×</text></g>
-            </svg>
-            <figcaption>Leads handled, relative to before the pipeline.</figcaption>
-        </figure>
-    </div>
+<div class="block">
+    <h2><span class="ico">⏱️</span>Lead prep time</h2>
+    <figure class="viz">
+        <svg viewBox="0 0 370 110" role="img" aria-label="Lead preparation time fell from over 30 minutes to about 1 minute">
+            <line class="axis" x1="60" y1="6" x2="60" y2="100"/>
+            <g class="mark"><text class="lbl" x="52" y="34" text-anchor="end">Before</text><rect class="bar bar-before" x="60" y="14" width="240" height="30" rx="4"><title>Before: 30+ minutes per lead</title></rect><text class="val" x="308" y="34">30+ min</text></g>
+            <g class="mark"><text class="lbl" x="52" y="80" text-anchor="end">After</text><rect class="bar bar-after" x="60" y="60" width="8" height="30" rx="3"><title>After: about 1 minute per lead</title></rect><text class="val" x="76" y="80">~1 min</text></g>
+        </svg>
+        <figcaption>Minutes to prepare one lead.</figcaption>
+    </figure>
 </div>
 
 <div class="block" id="ci">
