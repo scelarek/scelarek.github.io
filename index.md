@@ -114,7 +114,7 @@
     </article>
 
     <article class="card">
-        <p class="eyebrow">Aug 2010 – May 2014</p>
+        <p class="eyebrow">2009 – May 2014</p>
         <h2><a href="/pages/education.html">Bachelor of Science in Nursing · Saint Louis University</a></h2>
         <p>BSN, graduated as a Provost Scholar.</p>
         <ul class="tags"><li>BSN</li><li>Provost Scholar</li></ul>

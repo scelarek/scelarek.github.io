@@ -32,7 +32,7 @@
 
 <div class="block">
     <h2><span class="ico">🎓</span>Bachelor of Science in Nursing · Saint Louis University</h2>
-    <p><b>Aug 2010 – May 2014 · Provost Scholar</b></p>
+    <p><b>2009 – May 2014 · Provost Scholar</b></p>
     <p>My BSN led to eight years of nursing at SSM Saint Louis University Hospital and Providence St. Vincent. <a href="/pages/quality.html">See my nursing work →</a></p>
 </div>
 
