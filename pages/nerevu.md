@@ -2,7 +2,7 @@
     <p class="eyebrow">Data Analyst · Oct 2023 – present</p>
     <h1>Nerevu Group</h1>
     <p class="sub">Nerevu Group LLC · Peoria, Illinois · worked remotely from Portland, OR</p>
-    <p class="lede">Production pipelines, financial data integration, model evaluation, dashboards and published reports, across several client projects.</p>
+    <p class="lede">Production pipelines, financial data integration, model evaluation, dashboards and published reports, across internal tools and client projects.</p>
     <div class="stats">
         <div class="stat"><b>18</b><span>pipeline steps, sole programmer</span></div>
         <div class="stat"><b>~1,000</b><span>tests in CI</span></div>
@@ -17,7 +17,7 @@
 
 <div class="block" id="pipeline">
     <h2><span class="ico">⚙️</span>Government contracting pipeline</h2>
-    <p>I was the sole programmer on an 18-step Python, PostgreSQL and Airtable pipeline on Heroku that turns raw government contracting data into ready-to-use leads for clients.</p>
+    <p>I was the sole programmer on an 18-step Python, PostgreSQL and Airtable pipeline on Heroku that turns raw government contracting data into ready-to-use leads for Nerevu's internal team.</p>
     <div class="flow">
         <div class="step"><b>Collect</b>REST APIs, web scraping, PDF and XFA extraction</div>
         <div class="arrow">→</div>
@@ -25,7 +25,7 @@
         <div class="arrow">→</div>
         <div class="step"><b>Store</b>PostgreSQL, synced to Airtable for the team</div>
         <div class="arrow">→</div>
-        <div class="step"><b>Report</b>Client-ready leads in about a minute</div>
+        <div class="step"><b>Report</b>Ready-to-use leads in about a minute</div>
     </div>
 </div>
 
@@ -67,14 +67,14 @@
     </div>
     <div class="block" id="funnel">
         <h2><span class="ico">🔻</span>Hiring funnel analysis</h2>
-        <p>Analyzed a 1,000+ applicant hiring funnel stage by stage, and modeled which candidates advance to the next stage.</p>
+        <p>Analyzed Nerevu's internal 1,000+ applicant hiring funnel stage by stage, and modeled which candidates advance to the next stage.</p>
     </div>
 </div>
 
 <div class="split">
     <div class="block" id="dashboards">
         <h2><span class="ico">📊</span>ATS &amp; CRM dashboards</h2>
-        <p>Customized applicant tracking system (ATS) and CRM dashboards for clients.</p>
+        <p>Customized Nerevu's internal applicant tracking system (ATS) and CRM dashboards.</p>
     </div>
     <div class="block" id="models">
         <h2><span class="ico">🔍</span>Classifier &amp; LLM evaluation</h2>
