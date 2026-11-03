@@ -1,7 +1,7 @@
 <div class="intro">
     <p class="eyebrow">Portfolio</p>
     <h1>Clinical judgment, production data.</h1>
-    <p>Eight years as a nurse, including five in neuro ICUs and four on a hospital Quality Improvement &amp; Safety Council, two as chair. Then three years in data: I design databases, models and pipelines for healthcare questions, and I test them before anyone acts on them.</p>
+    <p>Eight years as a nurse, including five in neuro ICUs and five on a hospital Quality Improvement &amp; Safety Council, rising to chair. Then three years in data: I design databases, models and pipelines for healthcare questions, and I test them before anyone acts on them.</p>
 </div>
 
 <h2 class="section-title">Career Timeline</h2>
@@ -85,7 +85,7 @@
     <article class="card">
         <p class="eyebrow">Charge Nurse &amp; QI Council Chair · Jul 2014 – Jul 2019 · St. Louis, MO</p>
         <h2><a href="/pages/quality.html">SSM Saint Louis University Hospital</a></h2>
-        <p>Four years on the QI &amp; Safety Council, two as chair. Central line infections fell 41% after a house-wide rollout I led. DAISY Award winner twice, once on the step-down floor and once in the neuro ICU.</p>
+        <p>Five years on the QI &amp; Safety Council, rising from member to chair. Central line infections fell 41% after a house-wide rollout I led. DAISY Award winner twice, once on the step-down floor and once in the neuro ICU.</p>
         <ul class="tags"><li>Quality metrics</li><li>Chart audits</li><li>Epic</li><li>Process improvement</li><li>Leadership</li></ul>
         <a class="more" href="/pages/quality.html">See the results →</a>
     </article>
